@@ -1,2 +1,2 @@
 # mechano_media_analysis
-Density and media comparisons
+Analysis: Mechanoresponses to Media

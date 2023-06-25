@@ -40,9 +40,16 @@
         <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
         <a href="density_media.html" onclick="w3_close()" class="w3-bar-item w3-button">VOLCANO PLOT: DENSITY VS MEDIA</a>
         <a href="density.html" onclick="w3_close()" class="w3-bar-item w3-button">VOLCANO PLOT: DENSITY</a>
+        <a href="density.html#proteomics_400v60_hplm" onclick="w3_close()" class="w3-bar-item w3-button bump-right">Proteomics: 400 vs 60k, HPLM</a>
+        <a href="density.html#proteomics_400v60_hplm_15mmgluc" onclick="w3_close()" class="w3-bar-item w3-button bump-right">Proteomics: 400 vs 60k, HPLM (15 mM Glucose)</a>
+        <a href="density.html#proteomics_400v60_dmem" onclick="w3_close()" class="w3-bar-item w3-button bump-right">Proteomics: 400 vs 60k, DMEM</a>
+        <a href="density.html#proteomics_400v60_dmem_15mmgluc" onclick="w3_close()" class="w3-bar-item w3-button bump-right">Proteomics: 400 vs 60k, DMEM (15 mM Glucose)</a>
+        <a href="density.html#metabolomics_400v60_hplm" onclick="w3_close()" class="w3-bar-item w3-button bump-right">Metabolomics: 400 vs 60k, HPLM</a>
+        <a href="density.html#metabolomics_400v60_hplm_15mmgluc" onclick="w3_close()" class="w3-bar-item w3-button bump-right">Metabolomics: 400 vs 60k, HPLM (15 mM Glucose)</a>
+        <a href="density.html#metabolomics_400v60_dmem" onclick="w3_close()" class="w3-bar-item w3-button bump-right">Metabolomics: 400 vs 60k, DMEM</a>
+        <a href="density.html#metabolomics_400v60_dmem_15mmgluc" onclick="w3_close()" class="w3-bar-item w3-button bump-right">Metabolomics: 400 vs 60k, DMEM (15 mM Glucose)</a>
         <a href="media.html" onclick="w3_close()" class="w3-bar-item w3-button">VOLCANO PLOT: MEDIA</a>
-        <a href="metaboverse.html" onclick="w3_close()" class="w3-bar-item w3-button">METABOVERSE</a>
-        <a href="index.html#methods.html" onclick="w3_close()" class="w3-bar-item w3-button">METHODS</a>
+        <a href="methods.html" onclick="w3_close()" class="w3-bar-item w3-button">METHODS</a>
         <a href="index.html#citation" onclick="w3_close()" class="w3-bar-item w3-button">CITATION</a>
         <a href="index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
     </nav>
@@ -66,7 +73,112 @@
         <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="volcano_plot">
             <div class="w3-content" style="max-width:2400px">
                 <h4 class="w3-center"><b>VOLCANO PLOT: DENSITY</b></h4>
-            
+                
+                <h5 class="w3-center" id="proteomics_400v60_hplm"><b>Proteomics: 400 vs 60k, HPLM</b></h5>
+                <p></p>
+                <iframe 
+                    src="plots/proteomics_400_vs_60k_HPLM.html" 
+                    name="targetframe" 
+                    allowTransparency="true" 
+                    scrolling="no" 
+                    frameborder="1" 
+                    width="90%" 
+                    height="1000px"
+                    class="plot-spacer">
+                </iframe>
+
+                <h5 class="w3-center" id="proteomics_400v60_hplm_15mmgluc"><b>Proteomics: 400 vs 60k, HPLM (15 mM Glucose)</b></h5>
+                <p></p>
+                <iframe 
+                    src="plots/proteomics_400_vs_60k_HPLM_15mM_Glucose.html" 
+                    name="targetframe" 
+                    allowTransparency="true" 
+                    scrolling="no" 
+                    frameborder="1" 
+                    width="90%" 
+                    height="1000px"
+                    class="plot-spacer">
+                </iframe>
+
+                <h5 class="w3-center" id="proteomics_400v60_dmem"><b>Proteomics: 400 vs 60k, DMEM</b></h5>
+                <p></p>
+                <iframe 
+                    src="plots/proteomics_400_vs_60k_DMEM.html" 
+                    name="targetframe" 
+                    allowTransparency="true" 
+                    scrolling="no" 
+                    frameborder="1" 
+                    width="90%" 
+                    height="1000px"
+                    class="plot-spacer">
+                </iframe>
+
+                <h5 class="w3-center" id="proteomics_400v60_dmem_15mmgluc"><b>Proteomics: 400 vs 60k, DMEM (15 mM Glucose)</b></h5>
+                <p></p>
+                <iframe 
+                    src="plots/proteomics_400_vs_60k_DMEM_15mM_Glucose.html" 
+                    name="targetframe" 
+                    allowTransparency="true" 
+                    scrolling="no" 
+                    frameborder="1" 
+                    width="90%" 
+                    height="1000px"
+                    class="plot-spacer">
+                </iframe>
+
+
+                <h5 class="w3-center" id="metabolomics_400v60_hplm"><b>Metabolomics: 400 vs 60k, HPLM</b></h5>
+                <p></p>
+                <iframe 
+                    src="plots/metabolomics_400_vs_60k_HPLM.html" 
+                    name="targetframe" 
+                    allowTransparency="true" 
+                    scrolling="no" 
+                    frameborder="1" 
+                    width="90%" 
+                    height="1000px"
+                    class="plot-spacer">
+                </iframe>
+
+                <h5 class="w3-center" id="metabolomics_400v60_hplm_15mmgluc"><b>Metabolomics: 400 vs 60k, HPLM (15 mM Glucose)</b></h5>
+                <p></p>
+                <iframe 
+                    src="plots/metabolomics_400_vs_60k_HPLM_15mM_Glucose.html" 
+                    name="targetframe" 
+                    allowTransparency="true" 
+                    scrolling="no" 
+                    frameborder="1" 
+                    width="90%" 
+                    height="1000px"
+                    class="plot-spacer">
+                </iframe>
+
+
+                <h5 class="w3-center" id="metabolomics_400v60_dmem"><b>Metabolomics: 400 vs 60k, DMEM</b></h5>
+                <p></p>
+                <iframe 
+                    src="plots/metabolomics_400_vs_60k_DMEM.html" 
+                    name="targetframe" 
+                    allowTransparency="true" 
+                    scrolling="no" 
+                    frameborder="1" 
+                    width="90%" 
+                    height="1000px"
+                    class="plot-spacer">
+                </iframe>
+
+                <h5 class="w3-center" id="metabolomics_400v60_dmem_15mmgluc"><b>Metabolomics: 400 vs 60k, DMEM (15 mM Glucose)</b></h5>
+                <p></p>
+                <iframe 
+                    src="plots/metabolomics_400_vs_60k_DMEM_15mM_Glucose.html" 
+                    name="targetframe" 
+                    allowTransparency="true" 
+                    scrolling="no" 
+                    frameborder="1" 
+                    width="90%" 
+                    height="1000px"
+                    class="plot-spacer">
+                </iframe>
 
 
             </div>

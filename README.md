@@ -1,2 +1,2 @@
 # mechano_media_analysis
-Analysis: Mechanoresponses to Media
+Analysis: Mechanoresponses to Stiffness and Media
